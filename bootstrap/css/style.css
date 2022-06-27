@@ -1,0 +1,22 @@
+:root{
+    --colorMain: #00C8C8;
+    --mainHead: #005A82;
+}
+
+.bg-main{
+    background-color: var(--colorMain);
+}
+
+.my-bg{
+    background-image: url('../img/main2.png');
+    background-size: cover;
+    height: 720px;
+}
+
+.fleep{
+    height: 224px;
+}
+
+.down-section{
+    min-height: 752px;
+}
