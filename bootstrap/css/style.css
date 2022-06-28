@@ -26,6 +26,12 @@ body{
     height: 720px;
 }
 
+.my-bg-2{
+    background-image: url('../img/opport1.png');
+    background-size: cover;
+    height: 384px;
+}
+
 
 .txt-color{
     color: var(--mainHead);
@@ -89,6 +95,7 @@ body{
     line-height: 48px;
 }
 
+
 .paragraph > a{
     text-decoration: none;
     color: var(--colorMain);
@@ -96,6 +103,24 @@ body{
 
 .paragraph > a:hover{
     color: var(--mainHead);
+}
+
+.sec-head-2{
+    color: var(--mainHead);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.04em;
+    text-transform: lowercase;
+}
+
+.paragraph-2{
+    margin-top: 48px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 48px;
 }
 
 .join-sec{
