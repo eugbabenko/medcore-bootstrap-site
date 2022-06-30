@@ -170,6 +170,7 @@ body{
 }
 
 .btn-group{
+    display: block;
     padding: 16px 24px;
     font-style: normal;
     font-weight: 400;
@@ -254,7 +255,7 @@ body{
 }
 
 .my-carousel{
-    min-height: 784px;
+    /* min-height: 784px; */
     background-color: #FFFFFF;
 }
 
@@ -270,13 +271,10 @@ body{
     background-color: var(--colorMain)
  }
 
- .carousel-margin{
-    margin-top: 208px;
- }
 
 
 .down-section{
-    min-height: 752px;
+    /* min-height: 752px; */
 }
 
 .btn-third{
