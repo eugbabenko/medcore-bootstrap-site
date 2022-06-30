@@ -272,11 +272,6 @@ body{
  }
 
 
-
-.down-section{
-    /* min-height: 752px; */
-}
-
 .btn-third{
     padding: 16px 24px;
     border-radius: 4px;
@@ -320,6 +315,11 @@ body{
 .rights-footer > a{
     text-decoration: underline;
     color:#FFFFFF;
+}
+
+.my-video{
+    width: 100%;
+    height: auto;
 }
 
 .card-title{
@@ -381,4 +381,37 @@ body{
     background: #FFFFFF;
     color: var(--mainHead);
     border: 1px solid var(--mainHead);
+}
+
+@media only screen
+    and (max-width: 600px) {
+
+     .text-size-3{
+            font-size: 36px;
+            line-height: 150%;
+        }
+}
+
+@media only screen
+    and (max-width: 520px) {
+
+     .text-size-1{
+            font-size: 48px;
+        }
+
+      .sec-head-2{
+            font-size: 36px;
+            padding-left:25px ;
+        }
+        .sec-head{
+            font-size: 36px; 
+        }
+
+        .sec-head-3{
+            padding-left:25px ;
+        }
+
+        .rights-footer{
+            font-size: 14px;
+        }
 }
